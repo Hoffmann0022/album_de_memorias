@@ -22,6 +22,7 @@ export function InformationCard( {onClose} : InformationCardProps) {
                     <br /><br />
                     Particularmente eu achei essa ideia genial, espero que tu goste tanto quanto eu gostei, pois idealizei, preparei e fiz cada linha de código com muito carinho e amor.
                 </p>
+                
                 <div role="button" className="bg-love-soft py-2 px-6 rounded-3xl my-7 cursor-pointer lg:hover:bg-love transition duration-400 ease-in-out " onClick={onClose}>Começar</div>
             </div>
         </div>
