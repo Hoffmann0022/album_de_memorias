@@ -23,7 +23,7 @@ export function PrintCard() {
             });
 
             const link = document.createElement("a");
-            link.download = `card-${card && card.id}.png`;
+            link.download = `${card && card.id}-${card && card.place}-${card?.date}.png`;
             link.href = dataUrl;
             link.click();
         } catch (error) {

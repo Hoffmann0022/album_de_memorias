@@ -48,7 +48,7 @@ export function GetSticker() {
             <div className="grid grid-cols-1 max-w-125 gap-3 justify-center items-center w-full my-7 mx-5">
                 {
                     card && (
-                        <Sticker id={card.id} date={card.date} image={card.image} place={card.place} isVisible={true} onClick={() => navigate(`/figurinhas/${card.id}`)}/>
+                        <Sticker id={card.id} date={card.date} image={card.image} place={card.place} isVisible={true} onClick={() => navigate(`/figurinha/${card.id}`)}/>
                     )
                 }
                 {
