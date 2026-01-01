@@ -33,6 +33,7 @@ export function GetSticker() {
 
     return (
         <main className="min-h-screen overflow-x-clip text-text bg-paper flex flex-col justify-between items-center py-5 px-5">
+            
             <div className="w-screen flex flex-col justify-center items-center">
                 <h1 className="text-2xl">Álbum de memórias</h1>
 
@@ -47,7 +48,7 @@ export function GetSticker() {
             <div className="grid grid-cols-1 max-w-125 gap-3 justify-center items-center w-full my-7 mx-5">
                 {
                     card && (
-                        <Sticker id={card.id} date={card.date} image={card.image} place={card.place} isVisible={true} />
+                        <Sticker id={card.id} date={card.date} image={card.image} place={card.place} isVisible={true} onClick={() => navigate(`/figurinha/${card.id}`)}/>
                     )
                 }
                 {

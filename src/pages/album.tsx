@@ -10,7 +10,7 @@ export function Album() {
     const { album } = useAlbum();
     const navigate = useNavigate()
     const [showInfo, setShowInfo] = useState(false);
-
+    
     useEffect(() => {
         const alreadySeen = localStorage.getItem("seenInformationCard");
 
@@ -37,7 +37,7 @@ export function Album() {
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 lg:gap-10 gap-3 justify-center items-center w-full my-7 mx-5">
                 {album.map(card => (
-                    <Sticker key={card.id} {...card} />
+                    <Sticker key={card.id} {...card} onClick={() => navigate(`/figurinha/${card.id}`)} />
                 ))}
             </div>
         </main>
