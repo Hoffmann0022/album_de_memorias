@@ -1,0 +1,107 @@
+[
+  {
+    "id": "01",
+    "image": "/img/ctg_querencia_pre_historica-07.10.2023.jpg",
+    "date": "07/10/2023",
+    "place": "CTG Querência de Nova Hartz",
+    "isVisible": false
+  },
+  {
+    "id": "02",
+    "image": "/img/parobe-02.02.2025.jpg",
+    "date": "02/02/2025",
+    "place": "Parobé",
+    "isVisible": false
+  },
+  {
+    "id": "03",
+    "image": "/img/igreja_parobe-22.02.2025.jpg",
+    "date": "22/02/2025",
+    "place": "Parobé",
+    "isVisible": false
+  },
+  {
+    "id": "04",
+    "image": "/img/ctg_sangue_sativo-05.04.2025.jpg",
+    "date": "05/04/2025",
+    "place": "CTG Sangue Nativo",
+    "isVisible": false
+  },
+  {
+    "id": "05",
+    "image": "/img/arroio_do_sal-19.04.2025.jpg",
+    "date": "19/04/2025",
+    "place": "Arroio do Sal",
+    "isVisible": false
+  },
+  {
+    "id": "06",
+    "image": "/img/ctg_serigote_artistica-22.06.2025.jpg",
+    "date": "22/06/2025",
+    "place": "CTG Serigote",
+    "isVisible": false
+  },
+  {
+    "id": "07",
+    "image": "/img/ctg_serigote-28.06.2025.jpg",
+    "date": "28/06/2025",
+    "place": "CTG Serigote",
+    "isVisible": false
+  },
+  {
+    "id": "08",
+    "image": "/img/actg_portal_da_serra-05.07.2025.jpg",
+    "date": "05/07/2025",
+    "place": "ACTG Portal da Serra",
+    "isVisible": false
+  },
+  {
+    "id": "09",
+    "image": "/img/ctg_querencia_de_nova_hartz-20.07.2025.jpg",
+    "date": "20/07/2025",
+    "place": "CTG Querência de Nova Hartz",
+    "isVisible": false
+  },
+  {
+    "id": "10",
+    "image": "/img/cachoeira_do_sul-02.08.2025.jpg",
+    "date": "02/08/2025",
+    "place": "Cachoeira do Sul",
+    "isVisible": false
+  },
+  {
+    "id": "11",
+    "image": "/img/ctg_querencia_dia20-20.09.2025.jpg",
+    "date": "20/09/2025",
+    "place": "CTG Querência de Nova Hartz",
+    "isVisible": false
+  },
+  {
+    "id": "12",
+    "image": "/img/ctg_amigos_da_tradicao-18.10.2025.jpg",
+    "date": "18/10/2025",
+    "place": "CTG Amigos da Tradição",
+    "isVisible": false
+  },
+  {
+    "id": "13",
+    "image": "/img/ctg_desgarrados_da_querencia-15.11.2025.jpg",
+    "date": "15/11/2025",
+    "place": "CTG Desgarrados da Querência",
+    "isVisible": false
+  },
+  {
+    "id": "14",
+    "image": "/img/parobe_pos_formatura-17.12.2025.jpg",
+    "date": "17/12/2025",
+    "place": "Parobé",
+    "isVisible": false
+  },
+  {
+    "id": "15",
+    "image": "/img/campo_vicente-26.12.2025.jpg",
+    "date": "26/12/2025",
+    "place": "Campo Vicente",
+    "isVisible": false
+  }
+]

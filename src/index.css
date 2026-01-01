@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  /* Backgrounds */
+  --color-paper: #F5EFE6;      /* fundo principal (papel) */
+  --color-card: #FFFFFF;       /* cards / polaroids */
+
+  /* Text */
+  --color-text: #3A3A3A;       /* texto principal */
+  --color-text-muted: #6B6B6B; /* texto secundário */
+
+  /* Borders & details */
+  --color-border: #D6CFC4;     /* bordas / divisórias */
+
+  /* Accent (romântico) */
+  --color-love: #C97C7C;       /* destaque principal */
+  --color-love-soft: #E8B4B8;  /* hover / brilho */
+
+  /* Status */
+  --color-success: #9BB89B;    /* figurinha nova */
+  --color-warning: #D9A441;    /* figurinha repetida */
+
+  /* Shadows (opcional, combina com polaroid) */
+  --shadow-polaroid: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
