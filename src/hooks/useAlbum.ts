@@ -1,11 +1,18 @@
 import { useState, useEffect } from 'react';
 import data from '../data/stickers.json';
-import { type Card } from '../components/sticker';
 
 const STORAGE_KEY = 'album';
 
+export interface AlbumCard {
+  id: string;
+  image: string;
+  date: string;
+  place: string;
+  isVisible: boolean;
+}
+
 export function useAlbum() {
-    const [album, setAlbum] = useState<Card[]>([]);
+    const [album, setAlbum] = useState<AlbumCard[]>([]);
 
     useEffect(() => {
         const saved = localStorage.getItem(STORAGE_KEY);
@@ -31,7 +38,7 @@ export function useAlbum() {
         return album.length > 0 && album.every(card => card.isVisible);
     }
 
-    function getRandomCard(): Card {
+    function getRandomCard(): AlbumCard {
         return album[Math.floor(Math.random() * album.length)];
     }
 

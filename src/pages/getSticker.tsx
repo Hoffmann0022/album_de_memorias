@@ -1,12 +1,12 @@
 import { useNavigate } from "react-router-dom"
 import { useState } from "react";
 
-import { Sticker, type Card } from "../components/sticker";
-import { useAlbum } from "../hooks/useAlbum";
+import { Sticker} from "../components/sticker";
+import { useAlbum, type AlbumCard } from "../hooks/useAlbum";
 
 export function GetSticker() {
     const { unlockCard, getRandomCard, isAlbumComplete } = useAlbum();
-    const [card, setCard] = useState<Card | null>(null);
+    const [card, setCard] = useState<AlbumCard | null>(null);
     const [message, setMessage] = useState('');
 
     const navigate = useNavigate()
@@ -48,7 +48,7 @@ export function GetSticker() {
             <div className="grid grid-cols-1 max-w-125 gap-3 justify-center items-center w-full my-7 mx-5">
                 {
                     card && (
-                        <Sticker id={card.id} date={card.date} image={card.image} place={card.place} isVisible={true} onClick={() => navigate(`/figurinha/${card.id}`)}/>
+                        <Sticker id={card.id} date={card.date} image={card.image} place={card.place} isVisible={true} onClick={() => navigate(`/figurinhas/${card.id}`)}/>
                     )
                 }
                 {
